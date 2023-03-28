@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen MF0491_3</title>
+</head>
+
+<body>
+
+  <div>
+    <h2>PRIMER EJERCICIO</h2>
+    <label for="tipoMotor">Introduce el tipo de motor (1, 2, 3 o 4):</label>
+    <input type="number" id="tipoMotor" min="1" max="4">
+    <button onclick="dimeTipoMotor()">Comprobar</button>
+  </div>
+  <br>
+  <div id="resultado-motor"></div>
+
+
+  <div>
+    <h2>SEGUNDO EJERCICO</h2>
+    <label for="numero">Introduce un número entero:</label>
+    <input type="number" id="numero">
+    <button onclick="esParImpar()">Comprobar</button>
+  </div>
+  <br>
+  <div id="resultado-par-impar"></div>
+
+  <h2>TERCER EJERCICIO</h2>
+  <button onclick="elementoP()">Agregar Elemento 'p'</button>
+
+  <form>
+    <h2>CUARTO EJERCICIO</h2>
+    <label for="base">Base:</label>
+    <input type="number" id="base">
+
+    <label for="altura">Altura:</label>
+    <input type="number" id="altura">
+
+    <button type="button" onclick="calcularAreaTriangulo(document.getElementById('base').value, 
+              document.getElementById('altura').value)">Calcular</button>
+  </form>
+  <br>
+  <div id="area-triangulo"></div>
+
+
+
+  <script src="/js/ejercicios.js"></script>
+
+
+
+</body>
+
+</html>

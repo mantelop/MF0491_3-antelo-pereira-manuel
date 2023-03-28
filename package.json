@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@picocss/pico": "^1.5.7"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
